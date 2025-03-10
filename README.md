@@ -1,3 +1,36 @@
+# Book Management App
+
+A NestJS-based API for managing books. This project demonstrates the use of controllers, services, DTOs, and modules in a structured NestJS application.
+
+## Features
+- **Book Management**: Add, update, delete, and list books.
+- **Modular Architecture**: Organized using feature-based modules.
+- **TypeScript Support**: Fully written in TypeScript.
+- **RESTful API**: Follows REST principles for structured API design.
+
+## Installation
+### Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/book-management-app.git
+   cd book-management-app
+   ```
+
+## API Endpoints
+
+### Books
+| Method | Endpoint         | Description       |
+| ------ | --------------- | ----------------- |
+| GET    | `/book/findAll`  | Get all books     |
+| POST   | `/book/add`      | Add a new book    |
+| PUT    | `/book/update`   | Update a book     |
+| DELETE | `/book/delete/:id` | Delete a book by ID |
+
+## Technologies Used
+- **NestJS** - Framework for scalable Node.js applications
+- **TypeScript** - Typed JavaScript for better code quality
+- **Node.js** - Runtime environment
+- **ESLint & Prettier** - Code linting and formatting
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
